@@ -797,7 +797,7 @@ section,
 .services {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 60px;
+  padding-left: 20px;
 }
 
 .services .services-item .services-icon {
@@ -807,6 +807,7 @@ section,
 
 .services .services-item .services-icon i {
   color: #314935;
+  padding-right: 2px;
 }
 
 .services .services-item h3 {
