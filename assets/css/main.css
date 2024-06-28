@@ -730,7 +730,7 @@ section,
 }
 
 .about .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--accent-color);
+  background: #314935;
   opacity: 1;
 }
 
@@ -797,7 +797,7 @@ section,
 .services {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 70px;
+  padding-left: 60px;
 }
 
 .services .services-item .services-icon {
@@ -806,7 +806,8 @@ section,
 }
 
 .services .services-item .services-icon i {
-  font-size: 48px;
+  font-size: 40px;
+  color: #314935;
 }
 
 .services .services-item h3 {
@@ -1297,7 +1298,7 @@ section,
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--accent-color);
+  background: #314935;
   opacity: 1;
 }
 
@@ -2105,7 +2106,7 @@ section,
 
 .contact .info-item i {
   font-size: 24px;
-  color: var(--accent-color);
+  color: #314935;
   transition: all 0.3s ease-in-out;
   margin-right: 20px;
 }
