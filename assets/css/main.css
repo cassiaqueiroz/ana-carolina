@@ -413,6 +413,7 @@ h6 {
 .footer .copyright p,
 .footer .copyright .credits {
   margin: 2px 0;
+  font-size: 11px;
 }
 
 .footer .btn-learn-more {
