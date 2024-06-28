@@ -795,7 +795,7 @@ section,
 .services {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 80px;
+  padding-left: 70px;
 }
 
 .services .services-item .services-icon {
@@ -1069,7 +1069,7 @@ section,
 }
 
 .services-2 .services-item .services-icon i {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .services-2 .services-item h3 {
