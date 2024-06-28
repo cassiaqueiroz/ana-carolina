@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Noto Sans Display",  sans-serif;
-  --nav-font: "Noto Sans Display",  sans-serif;
+  --default-font: "Nunito Sans", sans-serif; 
+  --heading-font: "Oxygen", sans-serif;  
+  --nav-font: "Cinzel",  serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -391,7 +391,7 @@ h6 {
   background-color: var(--background-color);
   color: var(--default-color);
   padding: 60px 0;
-  font-size: 14px;
+  font-size: 18px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
@@ -433,9 +433,11 @@ h6 {
 }
 
 .footer .widget .widget-heading {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--heading-color);
   margin-bottom: 20px;
+  font-family: var(--heading-font);
+
 }
 
 .footer .widget ul li {
@@ -454,7 +456,7 @@ h6 {
 
 .footer .widget .footer-blog-entry .date {
   color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .footer .social-icons li {
@@ -496,7 +498,7 @@ h6 {
 }
 
 .footer .footer-subscribe .form-control {
-  font-size: 14px;
+  font-size: 18px;
   height: 42px;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 40%);
   background: none;
