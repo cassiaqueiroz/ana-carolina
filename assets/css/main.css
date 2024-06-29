@@ -207,9 +207,9 @@ h6 {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .appointment-btn {
-    margin-right: 8px;
+    margin-right: 10px;
   }
 }
 
