@@ -189,7 +189,6 @@ h6 {
 --------------------------------------------------------------*/
 
 .appointment-btn {
-  margin-left: 25px;
   background: #AD755A;
   color: #fff;
   border-radius: 50%;
@@ -199,8 +198,6 @@ h6 {
   font-size: 14px;
   display: inline-block;
   border: 2px solid transparent;
-
-
 }
 
 .appointment-btn:hover {
@@ -212,8 +209,7 @@ h6 {
 
 @media (max-width: 820px) {
   .appointment-btn {
-    margin-right: 16px;
-
+    margin-right: 12px;
   }
 }
 
