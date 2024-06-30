@@ -422,12 +422,13 @@ h6 {
 }
 
 .footer a {
-  color: #416146;
+  color: var(--accent-color);
+  font-weight: 600;
 }
 
 .footer a:hover {
-  color: var(--default-color);
-
+  color: unset;
+  font-weight: unset;
 }
 
 .footer .copyright {
