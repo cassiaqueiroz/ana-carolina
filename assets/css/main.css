@@ -2133,7 +2133,7 @@ section,
 }
 
 .contact .info h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
 }
 
@@ -2173,6 +2173,8 @@ section,
 
 .contact .php-email-form {
   width: 100%;
+  padding: 40px;
+
 }
 
 .contact .php-email-form .form-group {
