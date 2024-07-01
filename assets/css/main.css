@@ -712,7 +712,22 @@ section,
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 0;
+  position: relative; /* Necessário para o posicionamento absoluto do ::after */
+  padding-bottom: 10px; /* Espaço entre o texto e a linha */
 }
+
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 50%; /* Largura da linha, ajustável conforme necessário */
+  height: 2px; /* Altura da linha */
+  background-color: #adb6b1; /* Cor da linha */
+  margin: 0 auto; /* Centralizar a linha abaixo do texto */
+  position: absolute;
+  bottom: 0; /* Alinhamento ao fundo do elemento pai */
+  left: 25%; /* Centralizar a linha, ajustando conforme necessário */
+}
+
 
 .section-title p {
   font-size: 15px;
