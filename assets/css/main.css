@@ -508,6 +508,7 @@ h6 {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.3s all ease-in-out;
+  font-size: medium;
 }
 
 .footer .social-icons li a:hover {
