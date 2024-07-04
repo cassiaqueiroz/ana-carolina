@@ -793,7 +793,7 @@ section,
 }
 
 .about .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #314935;
+  background: rgba(49, 73, 53, 0.6);
   opacity: 1;
 }
 
@@ -869,7 +869,7 @@ section,
 }
 
 .services .services-item .services-icon i {
-  color: #314935;
+  color: rgba(49, 73, 53, 0.6);
   padding-right: 2px;
 }
 
@@ -1361,7 +1361,7 @@ section,
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #314935;
+  background: rgba(49, 73, 53, 0.6);
   opacity: 1;
 }
 
@@ -2213,7 +2213,7 @@ section,
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
-  border-color: rgba(49, 73, 53, 0.5);
+  border-color: rgba(49, 73, 53, 0.6);
 }
 
 .contact .php-email-form input[type=text]::placeholder,
