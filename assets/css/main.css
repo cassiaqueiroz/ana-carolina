@@ -2169,7 +2169,7 @@ section,
 
 .contact .info-item i {
   font-size: 24px;
-  color: #314935;
+  color: rgba(49, 73, 53, 0.6);
   transition: all 0.3s ease-in-out;
   margin-right: 20px;
 }
