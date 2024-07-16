@@ -1334,20 +1334,19 @@ section,
 
 
 .testimonials i {
-  color: #adb6b1;
+  color: rgba(173, 117, 90, 0.7);
   font-size: 20px;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
-  left: -8px;
+  left: -10px;
   position: relative;
-  font-size: 26px;
 }
 
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
-  right: -8px;
+  right: -10px;
   position: relative;
 }
 
